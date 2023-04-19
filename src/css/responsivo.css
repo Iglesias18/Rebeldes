@@ -1,0 +1,85 @@
+@media (max-width: 1500px) {
+  div#imagens::after {
+    display: none;
+  }
+}
+
+@media (max-width: 1400px) {
+  body {
+    background-color: #9190903d;
+  }
+
+  #fundo-video {
+    display: none;
+  }
+
+  #container {
+    flex-wrap: wrap;
+    justify-content: center;
+    height: auto;
+    gap: 30px;
+  }
+
+  #container #imagem-titulo {
+    max-width: 50%;
+  }
+
+  #container #informacoes {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  #container #descricao {
+    color: var(--cor4);
+    text-align: center;
+  }
+
+  #container #botao-trailer {
+    background-color: #0505052c;
+  }
+}
+
+  @media (min-width: 740px) and (max-width: 786px)  {
+    div#back-cell {
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: top;
+      height: 80vh;
+    }
+    div#imagens {
+      background-attachment: fixed;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 80vh;
+    
+    }
+  }
+
+  @media (min-width: 300px) and (max-width: 420px)  {
+    div#imagens {
+      background-attachment: scroll;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 40vh;
+    }
+    div#back-cell {
+      background-size: 100%;
+      background-repeat: no-repeat;
+      background-position: top;
+      height: 55vh;
+    }
+    main p {
+        align-items: center;
+        text-align: center;
+      }
+      
+      div#back-cell>a{
+       margin-bottom: 120px;
+       margin-right: 90px;
+      }
+    }
+
+
